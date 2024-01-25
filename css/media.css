@@ -1,0 +1,47 @@
+@media all and (min-width: 1025px) {
+
+}
+@media all and (max-width: 1024px) {
+
+}
+
+
+@media all and (max-width: 768px) {
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        width: 100%
+    }
+       
+    header nav{
+        display: none;
+    }
+    header .none{
+        display: block;
+    }
+   .headerRight i{
+    display: none;
+   }
+   .headerRight input{
+    display: none;
+   }
+   header .col{
+    width: 50%;
+   }
+   header .row{
+    
+    width: 100%;
+   }
+   .col{
+    width: 100%;
+   }
+   #shop .row .col{
+    width: 100%;
+   }
+}
+
+
+@media all and (max-width: 480px) {
+    
+}
